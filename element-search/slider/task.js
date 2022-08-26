@@ -1,6 +1,5 @@
 const prevSlide = document.querySelector('.slider__arrow_prev');
 const nextSlide = document.querySelector('.slider__arrow_next');
-
 const slideItem = document.querySelectorAll('.slider__item');
 let currentSlide = 0;
 let maxCurrentSlide = slideItem.length - 1;

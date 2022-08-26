@@ -1,6 +1,6 @@
+const dropdownItem =  Array.from(document.querySelectorAll(".dropdown__item"));
 const dropdownValue = document.querySelector('.dropdown__value');
 const dropdownList = document.querySelector('.dropdown__list');
-const dropdownItem =  Array.from(document.querySelectorAll(".dropdown__item"));
 
 dropdownValue.addEventListener('click', () => {
     if (dropdownList.className == 'dropdown__list') {

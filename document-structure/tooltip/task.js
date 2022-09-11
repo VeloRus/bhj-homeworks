@@ -6,6 +6,7 @@ hasTooltip.forEach(element => {
     const tooltip = document.querySelector('.tooltip');
     if(tooltip != null) {
         tooltip.remove();
+        return;
     }
     addTip(element);
   })
